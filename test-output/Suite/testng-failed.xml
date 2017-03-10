@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="Hazards.PatientIdentificationErrorTest"/>
+      <class name="Hazards.RegulatoryHazardsDueToUnauthorizedAccessToPatientInformationTest"/>
+      <class name="Hazards.SubstandardBottleTest"/>
+      <class name="Regression.CapribridgeBabyMatchTest"/>
+      <class name="Hazards.CauseManualEntryOfPatientIDTest"/>
+      <class name="com.bridge.poc.SubstandardBottleTrailTest"/>
+      <class name="Hazards.BloodProductIdentificationErrorTest"/>
+      <class name="com.com.testcase.FirstTestCase"/>
+      <class name="Hazards.ReleaseOfUnsuitableBreastMilkTest"/>
+      <class name="Regression.TrailTest"/>
+      <class name="Regression.ViewReactionChangeBloodTest"/>
+      <class name="com.bridge.poc.Receive_admin_bottle"/>
+      <class name="Hazards.CausePatientIdentificationErrorTest"/>
+      <class name="Regression.HoldTransfusionTest"/>
+      <class name="modulebabymatch.NewTrailTest"/>
+      <class name="Hazards.CausePatientMisidentificationTest"/>
+      <class name="Regression.RapidTransfusionTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Hazards.CausePatientMisidentificationTest">
+        <methods>
+          <include name="PatientMisidentificationTest"/>
+        </methods>
+      </class> <!-- Hazards.CausePatientMisidentificationTest -->
+      <class name="Regression.CapribridgeBabyMatchTest">
+        <methods>
+          <include name="babyMatchTestPlanTest"/>
+          <include name="sysManagerSettingsOffLocTest"/>
+          <include name="babyMatchWithLocationTest"/>
+          <include name="sysManagerSettingsTest"/>
+        </methods>
+      </class> <!-- Regression.CapribridgeBabyMatchTest -->
+      <class name="com.bridge.poc.SubstandardBottleTrailTest">
+        <methods>
+          <include name="substandardBottleTest"/>
+        </methods>
+      </class> <!-- com.bridge.poc.SubstandardBottleTrailTest -->
+      <class name="Hazards.PatientIdentificationErrorTest">
+        <methods>
+          <include name="patientIdentficationErrorTest"/>
+        </methods>
+      </class> <!-- Hazards.PatientIdentificationErrorTest -->
+      <class name="Hazards.CausePatientIdentificationErrorTest">
+        <methods>
+          <include name="PatientIdentificationErrorTest"/>
+          <include name="capribedsideNavigationTest"/>
+        </methods>
+      </class> <!-- Hazards.CausePatientIdentificationErrorTest -->
+      <class name="modulebabymatch.NewTrailTest">
+        <methods>
+          <include name="trailTest"/>
+        </methods>
+      </class> <!-- modulebabymatch.NewTrailTest -->
+      <class name="Regression.RapidTransfusionTest">
+        <methods>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- Regression.RapidTransfusionTest -->
+      <class name="com.com.testcase.FirstTestCase">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.com.testcase.FirstTestCase -->
+      <class name="Hazards.SubstandardBottleTest">
+        <methods>
+          <include name="substandardBottleTest"/>
+        </methods>
+      </class> <!-- Hazards.SubstandardBottleTest -->
+      <class name="Hazards.RegulatoryHazardsDueToUnauthorizedAccessToPatientInformationTest">
+        <methods>
+          <include name="regulatoryHazardsTest"/>
+        </methods>
+      </class> <!-- Hazards.RegulatoryHazardsDueToUnauthorizedAccessToPatientInformationTest -->
+      <class name="Regression.ViewReactionChangeBloodTest">
+        <methods>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- Regression.ViewReactionChangeBloodTest -->
+      <class name="com.bridge.poc.Receive_admin_bottle">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.bridge.poc.Receive_admin_bottle -->
+      <class name="Hazards.CauseManualEntryOfPatientIDTest">
+        <methods>
+          <include name="manualEntryOfPatientIDTest"/>
+          <include name="systemManagerPostSettingsTest"/>
+          <include name="systemManagerSettingsTest"/>
+          <include name="remainingMaualEntryTest"/>
+        </methods>
+      </class> <!-- Hazards.CauseManualEntryOfPatientIDTest -->
+      <class name="Regression.HoldTransfusionTest">
+        <methods>
+          <include name="mainTest"/>
+          <include name="systemManagerPreSettingTest"/>
+        </methods>
+      </class> <!-- Regression.HoldTransfusionTest -->
+      <class name="Hazards.ReleaseOfUnsuitableBreastMilkTest">
+        <methods>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- Hazards.ReleaseOfUnsuitableBreastMilkTest -->
+      <class name="Regression.TrailTest">
+        <methods>
+          <include name="trailTest"/>
+        </methods>
+      </class> <!-- Regression.TrailTest -->
+      <class name="Hazards.BloodProductIdentificationErrorTest">
+        <methods>
+          <include name="IdentificationErrorTest"/>
+        </methods>
+      </class> <!-- Hazards.BloodProductIdentificationErrorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

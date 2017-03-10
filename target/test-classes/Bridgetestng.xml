@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+        
+      <class name="Hazards.PatientIdentificationErrorTest"/>         
+      <!--  <class name="Hazards.SubstandardBottleTest"/>-->
+      <!--  <class name="Hazards.CauseManualEntryOfPatientIDTest"/>  -->    
+      <!--  <class name="Hazards.BloodProductIdentificationErrorTest"/>  -->         
+      <class name="Hazards.CausePatientIdentificationErrorTest"/>      
+      <class name="Hazards.CausePatientMisidentificationTest"/>      
+      <!--  <class name ="Hazards.PatientCareCompromisedDueToReleaseOfUnsuitableProductTest"/>-->
+      
+      
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

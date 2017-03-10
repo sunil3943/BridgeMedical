@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 182.861 sec <<< FAILURE! - in TestSuite
+PatientIdentificationErrorTest(Hazards.CausePatientIdentificationErrorTest)  Time elapsed: 49.779 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with id == cmdReceiveBottles_cmdButton (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'WIN7DX64-03129', ip: '10.171.196.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:42189/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2306ef35-2233-4d34-8a01-99d31c56c990
+*** Element info: {Using=id, value=cmdReceiveBottles_cmdButton}
+	at Hazards.CausePatientIdentificationErrorTest.PatientIdentificationErrorTest(CausePatientIdentificationErrorTest.java:130)
+
+PatientMisidentificationTest(Hazards.CausePatientMisidentificationTest)  Time elapsed: 42.977 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with id == txtExtra (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 646 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'WIN7DX64-03129', ip: '10.171.196.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:18091/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f85b555c-d798-44ae-bede-5dfe0a4aeae4
+*** Element info: {Using=id, value=txtExtra}
+	at Hazards.CausePatientMisidentificationTest.PatientMisidentificationTest(CausePatientMisidentificationTest.java:109)
+
+closeDriverTest(Hazards.CausePatientMisidentificationTest)  Time elapsed: 54.812 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with id == printerBarcode_cmdButton (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 322 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'WIN7DX64-03129', ip: '10.171.196.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24260/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e864e4b9-22ad-40d6-b2e4-e1d96fd349b7
+*** Element info: {Using=id, value=printerBarcode_cmdButton}
+	at Hazards.CausePatientMisidentificationTest.closeDriverTest(CausePatientMisidentificationTest.java:154)
+
