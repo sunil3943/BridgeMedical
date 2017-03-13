@@ -16,19 +16,19 @@
           <include name="capribedsideNavigationTest"/>
         </methods>
       </class> <!-- Hazards.CausePatientIdentificationErrorTest -->
+      <class name="Hazards.PatientIdentificationErrorTest">
+        <methods>
+          <include name="ITestResult"/>
+          <include name="patientIdentficationErrorTest"/>
+          <include name="preExecutionTest"/>
+        </methods>
+      </class> <!-- Hazards.PatientIdentificationErrorTest -->
       <class name="Hazards.CausePatientMisidentificationTest">
         <methods>
           <include name="PatientMisidentificationTest"/>
           <include name="closeDriverTest"/>
         </methods>
       </class> <!-- Hazards.CausePatientMisidentificationTest -->
-      <class name="Hazards.PatientIdentificationErrorTest">
-        <methods>
-          <include name="postExecutionTest"/>
-          <include name="ITestResult"/>
-          <include name="preExecutionTest"/>
-        </methods>
-      </class> <!-- Hazards.PatientIdentificationErrorTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

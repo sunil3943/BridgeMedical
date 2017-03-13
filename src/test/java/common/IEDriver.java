@@ -20,7 +20,7 @@ public class IEDriver
 	ExtentTest test;
 	public void callDriver(String URL) throws InterruptedException{
 	
-	System.setProperty("webdriver.ie.driver","c://IEDriverServer_Win32_2.53.0/IEDriverServer.exe");//"C:/Users/SC049886/SoftwareData/IEDriverServer_Win32_2.53.0/IEDriverServer.exe");	
+	System.setProperty("webdriver.ie.driver","c://IEDriverServer_Win32_2.53.1/IEDriverServer.exe");//"C:/Users/SC049886/SoftwareData/IEDriverServer_Win32_2.53.0/IEDriverServer.exe");	
 	driver = new InternetExplorerDriver();	
 	driver.navigate().to(URL);
 	Thread.sleep(1000);
